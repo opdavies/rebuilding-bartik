@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-blue-dark text-white pt-4">
+    <div class="bg-blue-dark text-white py-4">
       <div class="container mx-auto px-4 relative">
         <div class="text-sm flex justify-end">
           <a href="#0" class="text-white no-underline hover:underline">Log in</a>
@@ -13,11 +13,10 @@
           </div>
         </div>
 
-        <nav class="mt-4">
-          <a href="#0" class="inline-block text-sm no-underline text-black bg-white px-3 py-2 rounded-t-lg">Home</a>
-        </nav>
       </div>
     </div>
+
+    <main-menu></main-menu>
 
     <div class="bg-white pt-3 pb-4 lg:pb-12">
       <div class="container mx-auto px-4">
@@ -72,7 +71,11 @@
 </template>
 
 <script>
+import MainMenu from './MainMenu.vue';
+
 export default {
+  components: { MainMenu },
+
   props: {
     version: {
       type: String,
