@@ -62,7 +62,12 @@
           </div>
 
           <div class="mb-6">
-            <p>Powered by <a href="#0" class="text-white no-underline border-b border-dotted border-white">Drupal</a></p>
+            <p>
+              A clone of <a href="https://www.drupal.org" class="text-white no-underline border-b border-dotted border-white">Drupal</a>’s default theme (Bartik).
+              Built by <a href="https://www.oliverdavies.uk" class="text-white no-underline border-b border-dotted border-white">Oliver Davies</a>
+              using <a href="https://vuejs.org" class="text-white no-underline border-b border-dotted border-white">Vue.js</a>
+              and <a href="https://tailwindcss.com" class="text-white no-underline border-b border-dotted border-white">Tailwind CSS</a>.
+            </p>
           </div>
         </div>
       </div>
