@@ -1,15 +1,15 @@
 <template>
   <div id="app" class="h-full text-black bg-black text-sm leading-normal">
-    <WelcomeToDrupal version="8.6.3"/>
+    <Welcome version="8.6.3"/>
   </div>
 </template>
 
 <script>
-import WelcomeToDrupal from './components/WelcomeToDrupal.vue'
+import Welcome from './components/Welcome.vue'
 
 export default {
   components: {
-    WelcomeToDrupal,
+    Welcome,
   }
 }
 </script>
