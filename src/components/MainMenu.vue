@@ -64,10 +64,10 @@
             title: 'View code on GitHub',
             href: 'https://github.com/opdavies/rebuilding-bartik',
           },
-          // {
-          //   title: 'Read blog post',
-          //   href: 'https://github.com/opdavies/rebuilding-bartik',
-          // },
+          {
+            title: 'Read blog post',
+            href: 'https://www.oliverdavies.uk/blog/rebuilding-bartik-with-vuejs-tailwind-css',
+          },
         ]
       }
     },
