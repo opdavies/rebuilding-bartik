@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="h-full text-black bg-black text-sm leading-normal">
     <WelcomeToDrupal version="8.6.3"/>
   </div>
 </template>
@@ -8,7 +8,6 @@
 import WelcomeToDrupal from './components/WelcomeToDrupal.vue'
 
 export default {
-  name: 'app',
   components: {
     WelcomeToDrupal,
   }
