@@ -66,12 +66,12 @@
           },
           {
             title: 'View code on GitHub',
-            href: 'https://github.com/opdavies/vue-tailwind-bartik',
+            href: 'https://github.com/opdavies/rebuilding-bartik',
             active: false,
           },
           // {
           //   title: 'Read blog post',
-          //   href: 'https://github.com/opdavies/tailwind-bartik',
+          //   href: 'https://github.com/opdavies/rebuilding-bartik',
           //   active: false,
           // },
         ]
