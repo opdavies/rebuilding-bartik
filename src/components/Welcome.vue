@@ -6,7 +6,7 @@
           <div class="flex items-center">
             <img src="img/logo.svg" alt="" class="mr-4">
             <div class="text-2xl">
-              <a href="#0" class="text-white no-underline">Drupal {{ version }}</a>
+              <a href="#0" class="text-white no-underline">Drupal {{ drupalVersion }}</a>
             </div>
           </div>
 
@@ -25,7 +25,7 @@
         <div class="flex flex-col md:flex-row-reverse md:-mx-8 my-6">
           <div class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
             <div class="font-serif">
-              <h1 class="font-normal">Welcome to Drupal {{ version }}</h1>
+              <h1 class="font-normal">Welcome to Drupal {{ drupalVersion }}</h1>
               <p>No front page content has been created yet.</p>
               <p>Follow the <a href="#0" class="text-blue-dark hover:text-blue no-underline border-b border-blue border-dotted hover:bg-solid">User Guide</a> to start building your site.</p>
             </div>
@@ -84,7 +84,7 @@ export default {
   components: { MainMenu },
 
   props: {
-    version: {
+    drupalVersion: {
       type: String,
       required: true
     }

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Welcome version="8.6.3"/>
+    <Welcome drupal-version="8.6.3"/>
   </div>
 </template>
 
