@@ -21,11 +21,11 @@
           <div
             class="px-1 sm:pl-0 mb-1 md:mb-0 inline-block w-full sm:w-1/3 md:w-auto"
             :key="link.title"
-            v-for="link in links"
+            v-for="(link, index) in links"
           >
             <a
               class="block text-sm no-underline text-black px-3 py-2 rounded-lg md:rounded-none md:rounded-t-lg sm:text-center"
-              :class="[ link.active ? 'bg-white' : 'bg-blue-lighter hover:bg-white' ]"
+              :class="[ index == activeTab ? 'bg-white' : 'bg-blue-lighter hover:bg-white' ]"
               :href="link.href"
             >
               {{ link.title }}
@@ -41,38 +41,32 @@
   export default {
     data: function () {
       return {
+        activeTab: 0,
         open: false,
-
         links: [
           {
             title: 'Home',
             href: '#0',
-            active: true,
           },
           {
             title: 'Drupal',
             href: 'https://www.drupal.org',
-            active: false,
           },
           {
             title: 'Vue.js',
             href: 'https://vuejs.org',
-            active: false,
           },
           {
             title: 'Tailwind CSS',
             href: 'https://tailwindcss.com',
-            active: false,
           },
           {
             title: 'View code on GitHub',
             href: 'https://github.com/opdavies/rebuilding-bartik',
-            active: false,
           },
           // {
           //   title: 'Read blog post',
           //   href: 'https://github.com/opdavies/rebuilding-bartik',
-          //   active: false,
           // },
         ]
       }
