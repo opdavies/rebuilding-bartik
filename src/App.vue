@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Welcome drupal-version="8.6.3"/>
+    <Welcome title="Rebuilding Bartik"/>
   </div>
 </template>
 
