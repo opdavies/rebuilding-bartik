@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-dark">
+  <div>
     <button
       type="button"
       class="w-full p-3 block sm:hidden bg-blue-lighter text-sm text-grey-darker text-left focus:outline-none"

@@ -1,24 +1,25 @@
 <template>
   <div>
-    <div class="bg-blue-dark text-white py-4">
-      <div class="container mx-auto px-4 relative">
-        <div class="flex flex-col-reverse">
-          <div class="flex items-center">
-            <img src="img/logo.svg" alt="" class="mr-4">
-            <div class="text-2xl">
-              <a href="#0" class="text-white no-underline">{{ title }}</a>
+    <div class="bg-blue-dark">
+      <div class="py-4 text-white">
+        <div class="container mx-auto px-4 relative">
+          <div class="flex flex-col-reverse">
+            <div class="flex items-center">
+              <img src="img/logo.svg" alt="" class="mr-4">
+              <div class="text-2xl">
+                <a href="#0" class="text-white no-underline">{{ title }}</a>
+              </div>
+            </div>
+
+            <div class="text-sm flex justify-end">
+              <a href="#0" class="text-white no-underline hover:underline">Log in</a>
             </div>
           </div>
-
-          <div class="text-sm flex justify-end">
-            <a href="#0" class="text-white no-underline hover:underline">Log in</a>
-          </div>
         </div>
-
       </div>
-    </div>
 
-    <main-menu></main-menu>
+      <main-menu></main-menu>
+    </div>
 
     <div class="bg-white pt-3 pb-4 lg:pb-12">
       <div class="container mx-auto px-4">
