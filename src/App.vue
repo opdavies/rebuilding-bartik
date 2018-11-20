@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="h-full text-black bg-black text-sm leading-normal">
+  <div id="app">
     <Welcome version="8.6.3"/>
   </div>
 </template>
@@ -8,6 +8,7 @@
 import Welcome from './components/Welcome.vue'
 
 export default {
+  name: 'app',
   components: {
     Welcome,
   }
