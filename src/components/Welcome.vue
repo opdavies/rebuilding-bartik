@@ -39,7 +39,7 @@
 
           <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
             <div class="p-4" style="background-color: #f6f6f2">
-              <h2 class="font-serif font-normal text-base border-b border-solid border-grey-light mb-3">Search</h2>
+              <h2 class="font-serif font-normal text-base text-grey-darkest border-b border-solid border-grey-light mb-3">Search</h2>
 
               <div>
                 <form action="#" class="flex">
