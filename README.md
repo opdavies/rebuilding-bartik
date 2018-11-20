@@ -1,4 +1,4 @@
-# tailwind-bartik
+# vue-tailwind-bartik
 
 ## Project setup
 ```
