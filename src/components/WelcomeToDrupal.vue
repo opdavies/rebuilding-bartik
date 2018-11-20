@@ -2,14 +2,16 @@
   <div>
     <div class="bg-blue-dark text-white py-4">
       <div class="container mx-auto px-4 relative">
-        <div class="text-sm flex justify-end">
-          <a href="#0" class="text-white no-underline hover:underline">Log in</a>
-        </div>
+        <div class="flex flex-col-reverse">
+          <div class="flex items-center">
+            <img src="img/logo.svg" alt="" class="mr-4">
+            <div class="text-2xl">
+              <a href="#0" class="text-white no-underline">Drupal {{ version }}</a>
+            </div>
+          </div>
 
-        <div class="flex items-center">
-          <img src="img/logo.svg" alt="" class="mr-4">
-          <div class="text-2xl">
-            <a href="#0" class="text-white no-underline">Drupal {{ version }}</a>
+          <div class="text-sm flex justify-end">
+            <a href="#0" class="text-white no-underline hover:underline">Log in</a>
           </div>
         </div>
 
