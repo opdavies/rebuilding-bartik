@@ -2,7 +2,7 @@
   <div>
     <button
       type="button"
-      class="w-full p-3 block sm:hidden bg-blue-lighter text-sm text-grey-darker text-left focus:outline-none"
+      class="w-full p-3 block sm:hidden bg-blue-light text-sm text-grey-darker text-left focus:outline-none"
       @click="open = !open"
     >
       <div class="flex items-center justify-between">
@@ -25,7 +25,7 @@
           >
             <a
               class="block text-sm no-underline text-black px-3 py-2 rounded-lg md:rounded-none md:rounded-t-lg sm:text-center"
-              :class="[ index == activeTab ? 'bg-white' : 'bg-blue-lighter hover:bg-white' ]"
+              :class="[ index == activeTab ? 'bg-white' : 'bg-blue-light hover:bg-white' ]"
               :href="link.href"
             >
               {{ link.title }}

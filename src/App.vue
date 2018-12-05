@@ -18,5 +18,14 @@ export default {
 <style>
 @tailwind preflight;
 @tailwind components;
+
+.widget {
+  @apply bg-grey-lightest p-4;
+}
+
+.widget:not(:last-child) {
+  @apply mb-4;
+}
+
 @tailwind utilities;
 </style>
