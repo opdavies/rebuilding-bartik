@@ -39,7 +39,7 @@
           </div>
 
           <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
-            <div class="widget">
+            <drupal-block>
               <h2 class="font-serif font-normal text-base text-grey-darkest border-b border-solid border-grey-light mb-3">Search</h2>
 
               <div>
@@ -51,7 +51,7 @@
                   </button>
                 </form>
               </div>
-            </div>
+            </drupal-block>
           </div>
         </div>
       </div>
@@ -79,10 +79,14 @@
 </template>
 
 <script>
+import DrupalBlock from './DrupalBlock.vue'
 import MainMenu from './MainMenu.vue';
 
 export default {
-  components: { MainMenu },
+  components: {
+      DrupalBlock,
+      MainMenu,
+  },
 
   props: {
     title: {
