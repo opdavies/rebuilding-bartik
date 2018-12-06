@@ -46,7 +46,7 @@
                 <form action="#" class="flex">
                   <input type="text" class="border border-solid border-grey p-2 w-full xl:w-auto">
 
-                  <button type="submit" class="bg-grey-light px-3 rounded-full border-b border-solid border-grey-dark ml-2 flex-none" style="background-color: #f0f0f0">
+                  <button type="submit" class="bg-grey-lighter px-3 rounded-full border-b border-solid border-grey-dark ml-2 flex-none">
                     <img src="img/loupe.svg" class="block">
                   </button>
                 </form>
