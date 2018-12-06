@@ -2,17 +2,17 @@
   <div>
     <div class="bg-blue-dark">
       <div class="py-4 text-white">
-        <div class="container mx-auto px-4 relative">
+        <div id="header" class="container mx-auto px-4 relative">
           <div class="flex flex-col-reverse">
             <div class="flex items-center">
               <img src="img/logo.svg" alt="" class="mr-4">
               <div class="text-2xl">
-                <a href="#0" class="text-white no-underline">{{ title }}</a>
+                <a href="#0">{{ title }}</a>
               </div>
             </div>
 
             <div class="text-sm flex justify-end">
-              <a href="#0" class="text-white no-underline hover:underline">Log in</a>
+              <a href="#0">Log in</a>
             </div>
           </div>
         </div>
@@ -24,11 +24,11 @@
     <div class="bg-white pt-3 pb-4 lg:pb-12">
       <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row-reverse md:-mx-8 my-6">
-          <div class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
+          <div id="main" class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
             <div class="font-serif">
               <h1 class="font-normal">Welcome to {{ title }}</h1>
               <p>No front page content has been created yet.</p>
-              <p>Follow the <a href="#0" class="text-blue-dark hover:text-blue no-underline border-b border-blue border-dotted hover:bg-solid">User Guide</a> to start building your site.</p>
+              <p>Follow the <a href="#0" class="">User Guide</a> to start building your site.</p>
             </div>
 
             <div class="mt-10">
@@ -57,19 +57,19 @@
       </div>
     </div>
 
-    <div class="text-xs text-white">
+    <div id="footer" class="text-xs text-white">
       <div class="container mx-auto px-4 pt-16 pb-4">
         <div class="border-t border-solid border-grey-darkest pt-6 -mb-6">
           <div class="mb-6">
-            <p><a href="#0" class="text-white no-underline border-b border-dotted border-white">Contact</a></p>
+            <p><a href="#0">Contact</a></p>
           </div>
 
           <div class="mb-6">
             <p>
-              A clone of <a href="https://www.drupal.org" class="text-white no-underline border-b border-dotted border-white">Drupal</a>’s default theme (Bartik).
-              Built by <a href="https://www.oliverdavies.uk" class="text-white no-underline border-b border-dotted border-white">Oliver Davies</a>
-              using <a href="https://vuejs.org" class="text-white no-underline border-b border-dotted border-white">Vue.js</a>
-              and <a href="https://tailwindcss.com" class="text-white no-underline border-b border-dotted border-white">Tailwind CSS</a>.
+              A clone of <a href="https://www.drupal.org">Drupal</a>’s default theme (Bartik).
+              Built by <a href="https://www.oliverdavies.uk">Oliver Davies</a>
+              using <a href="https://vuejs.org">Vue.js</a>
+              and <a href="https://tailwindcss.com">Tailwind CSS</a>.
             </p>
           </div>
         </div>
@@ -96,3 +96,26 @@ export default {
   }
 }
 </script>
+
+<style lang="sass">
+#header a
+  @apply text-white no-underline
+
+  &:hover,
+  &:focus
+    @apply underline
+
+#main a
+  @apply text-blue-dark no-underline border-b border-blue border-dotted
+
+  &:hover,
+  &:focus
+    @apply text-blue border-solid
+
+#footer a
+  @apply text-white no-underline border-b border-dotted border-white
+
+  &:hover,
+  &:focus
+    @apply border-none
+</style>
