@@ -15,17 +15,8 @@ export default {
 }
 </script>
 
-<style>
-@tailwind preflight;
-@tailwind components;
-
-.widget {
-  @apply bg-grey-lightest p-4;
-}
-
-.widget:not(:last-child) {
-  @apply mb-4;
-}
-
-@tailwind utilities;
+<style lang="sass">
+@tailwind preflight
+@tailwind components
+@tailwind utilities
 </style>
