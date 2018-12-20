@@ -55,6 +55,8 @@ let colors = {
   'grey-lightest': '#F6F6F2',
   'white': '#ffffff',
 
+  'black-60': 'rgba(0, 0, 0, .6)',
+
   'blue-dark': '#2779bd',
   'blue': '#3490dc',
   'blue-light': '#bcdefa',
@@ -825,7 +827,7 @@ module.exports = {
     overflow: ['responsive'],
     padding: ['responsive'],
     pointerEvents: ['responsive'],
-    position: ['responsive'],
+    position: ['responsive', 'focus'],
     resize: ['responsive'],
     shadows: ['responsive', 'hover', 'focus'],
     svgFill: [],
@@ -864,6 +866,7 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
+    require('tailwindcss-skip-link')(),
   ],
 
 
