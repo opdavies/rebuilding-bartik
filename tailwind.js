@@ -827,7 +827,7 @@ module.exports = {
     overflow: ['responsive'],
     padding: ['responsive'],
     pointerEvents: ['responsive'],
-    position: ['responsive', 'focus'],
+    position: ['responsive'],
     resize: ['responsive'],
     shadows: ['responsive', 'hover', 'focus'],
     svgFill: [],
