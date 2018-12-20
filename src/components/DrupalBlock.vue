@@ -1,7 +1,7 @@
 <template>
-    <div class="drupal-block">
-        <slot></slot>
-    </div>
+  <div class="drupal-block">
+    <slot></slot>
+  </div>
 </template>
 
 <style lang="sass" scoped>
