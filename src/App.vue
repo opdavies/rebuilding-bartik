@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <a href="#0" class="skip-link text-white bg-black-60 py-1 px-2 rounded-b-lg focus:no-underline focus:outline-none">Skip to main content</a>
+    <skip-link></skip-link>
 
-    <Welcome title="Rebuilding Bartik"/>
+    <welcome title="Rebuilding Bartik"></welcome>
   </div>
 </template>
 
 <script>
-import Welcome from './components/Welcome.vue'
+import SkipLink from './components/SkipLink'
+import Welcome from './components/Welcome'
 
 export default {
   name: 'app',
   components: {
+    SkipLink,
     Welcome,
   }
 }
