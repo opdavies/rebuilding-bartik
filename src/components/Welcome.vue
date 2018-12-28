@@ -21,7 +21,7 @@
       <main-menu></main-menu>
     </div>
 
-    <div class="bg-white pt-3 pb-4 lg:pb-12">
+    <div id="main-content" class="bg-white pt-3 pb-4 lg:pb-12">
       <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row-reverse md:-mx-8 my-6">
           <div id="main" class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
