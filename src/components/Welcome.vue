@@ -38,8 +38,8 @@
             </div>
           </div>
 
-          <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6">
-            <drupal-block>
+          <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6 -mb-4">
+            <sidebar-block>
               <h2 class="font-serif font-normal text-base text-grey-darkest border-b border-solid border-grey-light mb-3">Search</h2>
 
               <div>
@@ -51,7 +51,7 @@
                   </button>
                 </form>
               </div>
-            </drupal-block>
+            </sidebar-block>
           </div>
         </div>
       </div>
@@ -79,13 +79,13 @@
 </template>
 
 <script>
-import DrupalBlock from './DrupalBlock.vue'
 import MainMenu from './MainMenu.vue';
+import SidebarBlock from './SidebarBlock.vue'
 
 export default {
   components: {
-      DrupalBlock,
-      MainMenu,
+    MainMenu,
+    SidebarBlock,
   },
 
   props: {
