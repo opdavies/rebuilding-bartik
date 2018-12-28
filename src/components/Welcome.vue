@@ -23,7 +23,13 @@
 
     <div id="main-content" class="bg-white pt-6 pb-4 lg:pb-12">
       <div class="container mx-auto px-4">
-        <drupal-message />
+        <drupal-message type="status">
+          <p>
+            A Bartik clone, built with
+            <a href="https://vuejs.org" class="text-blue-dark hover:text-blue no-underline border-b border-dotted hover:border-solid border-blue-dark">Vue.js</a>
+            and <a href="https://tailwindcss.com" class="text-blue-dark hover:text-blue no-underline border-b border-dotted hover:border-solid border-blue-dark">Tailwind CSS</a>.
+          </p>
+        </drupal-message>
 
         <div class="flex flex-col md:flex-row-reverse md:-mx-8 my-6">
           <div id="main" class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
