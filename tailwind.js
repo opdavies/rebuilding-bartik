@@ -60,6 +60,11 @@ let colors = {
   'blue-dark': '#2779bd',
   'blue': '#3490dc',
   'blue-light': '#bcdefa',
+
+  'green-dark': '#325E1C',
+  'green': '#77B159',
+  'green-light': '#CDE2C2',
+  'green-lighter': '#F3FAEE',
 }
 
 module.exports = {
@@ -803,7 +808,7 @@ module.exports = {
     borderCollapse: [],
     borderColors: ['responsive', 'hover', 'focus'],
     borderRadius: ['responsive'],
-    borderStyle: ['responsive'],
+    borderStyle: ['responsive', 'hover', 'focus'],
     borderWidths: ['responsive'],
     cursor: ['responsive'],
     display: ['responsive'],
