@@ -3,9 +3,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-import DrupalMessage from '@/components/DrupalMessage.vue'
-
-Vue.component('DrupalMessage', DrupalMessage)
+Vue.component('drupal-message', require('@/components/DrupalMessage').default)
 
 new Vue({
   render: h => h(App),
