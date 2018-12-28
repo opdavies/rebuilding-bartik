@@ -81,13 +81,11 @@
 </template>
 
 <script>
-import DrupalMessage from './DrupalMessage.vue';
 import MainMenu from './MainMenu.vue';
 import SidebarBlock from './SidebarBlock.vue'
 
 export default {
   components: {
-    DrupalMessage,
     MainMenu,
     SidebarBlock,
   },
