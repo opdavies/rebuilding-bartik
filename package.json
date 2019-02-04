@@ -12,9 +12,6 @@
     "sass-loader": "^7.1.0",
     "tailwindcss": "^0.7.2",
     "tailwindcss-skip-link": "^1.0.1",
-    "tailwindcss-spaced-items": "^0.1.0",
-    "tailwindcss-visuallyhidden": "^1.0.2",
-    "tailwindcss-vuejs": "^1.1.2",
     "vue": "^2.5.17"
   },
   "devDependencies": {
