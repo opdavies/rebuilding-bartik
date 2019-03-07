@@ -2,7 +2,7 @@
   <div>
     <div class="bg-blue-dark">
       <div class="py-4 text-white">
-        <div id="header" class="px-4 relative">
+        <div id="header" class="container mx-auto px-4 relative">
           <div class="flex flex-col-reverse">
             <div class="flex items-center">
               <img src="img/logo.svg" alt="" class="mr-4">
@@ -22,7 +22,7 @@
     </div>
 
     <div id="main-content" class="bg-white pt-6 pb-4 lg:pb-12">
-      <div class="px-4">
+      <div class="container mx-auto px-4">
         <drupal-message type="status">
           <p>
             A Bartik clone, built with
@@ -66,7 +66,7 @@
     </div>
 
     <div id="footer" class="text-xs text-white">
-      <div class="px-4 pt-16 pb-4">
+      <div class="container mx-auto px-4 pt-16 pb-4">
         <div class="border-t border-solid border-grey-darkest pt-6 -mb-6">
           <div class="mb-6">
             <p><a href="#0">Contact</a></p>

@@ -15,7 +15,7 @@
       </div>
     </button>
 
-    <div class="px-4 sm:block" :class="[ open ? 'block' : 'hidden' ]">
+    <div class="container mx-auto px-4 sm:block" :class="[ open ? 'block' : 'hidden' ]">
       <div class="mt-2 sm:mt-0">
         <nav class="flex flex-wrap pb-1 md:p-0 -mx-3 sm:-mx-0">
           <div
