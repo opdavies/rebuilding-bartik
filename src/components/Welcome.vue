@@ -31,7 +31,7 @@
           </p>
         </drupal-message>
 
-        <div class="flex flex-col md:flex-row-reverse md:-mx-8 my-6">
+        <div class="flex flex-col md:flex-row-reverse md:-mx-6 my-6">
           <div id="main" class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
             <div class="font-serif">
               <h1 class="font-normal">Welcome to {{ title }}</h1>
