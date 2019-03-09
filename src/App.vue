@@ -19,13 +19,14 @@ export default {
 }
 </script>
 
-<style lang="sass">
-@tailwind preflight
-@tailwind components
+<style>
+@tailwind preflight;
+@tailwind components;
 
-.skip-link:focus
-  left: 50%
-  transform: translateX(-50%)
+.skip-link:focus {
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-@tailwind utilities
+@tailwind utilities;
 </style>
