@@ -105,25 +105,31 @@ export default {
 }
 </script>
 
-<style lang="sass">
-#header a
-  @apply text-white no-underline
+<style type="postcss">
+#header a {
+  @apply text-white no-underline;
 
   &:hover,
-  &:focus
+  &:focus {
     @apply underline
+  }
+}
 
-#main a
-  @apply text-blue-3 no-underline border-b border-blue-1 border-dotted
+#main a {
+  @apply text-blue-3 no-underline border-b border-blue-1 border-dotted;
 
   &:hover,
-  &:focus
+  &:focus {
     @apply text-blue-1 border-solid
+  }
+}
 
-#footer a
-  @apply text-white no-underline border-b border-dotted border-white
+#footer a {
+  @apply text-white no-underline border-b border-dotted border-white;
 
   &:hover,
-  &:focus
+  &:focus {
     @apply border-none
+  }
+}
 </style>
