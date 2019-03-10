@@ -34,7 +34,7 @@
         <div class="flex flex-col md:flex-row-reverse md:-mx-6 my-6">
           <div id="main" class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
             <div class="font-serif">
-              <h1 class="text-3xl font-normal">Welcome to {{ title }}</h1>
+              <h1 class="text-3xl font-normal leading-tight mb-1">Welcome to {{ title }}</h1>
               <p>No front page content has been created yet.</p>
               <p>Follow the <a href="#0" class="">User Guide</a> to start building your site.</p>
             </div>
