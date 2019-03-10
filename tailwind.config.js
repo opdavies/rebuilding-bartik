@@ -24,8 +24,8 @@ module.exports = {
         '5': '#8795a1',
         '6': '#3d4852',
       },
-      'transparent': 'transparent',
-      'white': '#FFF',
+      transparent: 'transparent',
+      white: '#fff',
     },
     extend: {
       fontSize: {
