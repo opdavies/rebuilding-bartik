@@ -2,13 +2,13 @@ module.exports = {
   theme: {
     colors: {
       black: {
-        default: '#22292f',
+        default: '#22292F',
         '60': 'rgba(0, 0, 0, .6)',
       },
       blue: {
-        '10': '#bcdefa',
-        '20': '#3490dc',
-        '30': '#2779bd',
+        '10': '#BCDEFA',
+        '20': '#3490DC',
+        '30': '#2779BD',
       },
       green: {
         '10': '#F3FAEE',
@@ -18,14 +18,14 @@ module.exports = {
       },
       grey: {
         '10': '#F6F6F2',
-        '20': '#f0f0f0',
-        '30': '#dae1e7',
-        '40': '#b8c2cc',
-        '50': '#8795a1',
-        '60': '#3d4852',
+        '20': '#F0F0F0',
+        '30': '#DAE1E7',
+        '40': '#B8C2CC',
+        '50': '#8795A1',
+        '60': '#3D4852',
       },
       'transparent': 'transparent',
-      'white': '#ffffff',
+      'white': '#FFF',
     },
     extend: {
       fontSize: {
