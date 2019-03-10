@@ -2,7 +2,7 @@
   <div>
     <div class="bg-blue-dark">
       <div class="py-4 text-white">
-        <div id="header" class="xl:max-w-3xl mx-auto px-4 relative">
+        <div id="header" class="xl:max-w-6xl mx-auto px-4 relative">
           <div class="flex flex-col-reverse">
             <div class="flex items-center">
               <img src="img/logo.svg" alt="" class="mr-4">
@@ -22,7 +22,7 @@
     </div>
 
     <div id="main-content" class="bg-white pt-6 pb-4 lg:pb-12">
-      <div class="xl:max-w-3xl mx-auto px-4">
+      <div class="xl:max-w-6xl mx-auto px-4">
         <drupal-message type="status">
           <p>
             A Bartik clone, built with
@@ -34,7 +34,7 @@
         <div class="flex flex-col md:flex-row-reverse md:-mx-6 my-6">
           <div id="main" class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
             <div class="font-serif">
-              <h1 class="font-normal">Welcome to {{ title }}</h1>
+              <h1 class="text-3xl font-normal">Welcome to {{ title }}</h1>
               <p>No front page content has been created yet.</p>
               <p>Follow the <a href="#0" class="">User Guide</a> to start building your site.</p>
             </div>
@@ -66,7 +66,7 @@
     </div>
 
     <div id="footer" class="text-xs text-white">
-      <div class="xl:max-w-3xl mx-auto px-4 pt-16 pb-4">
+      <div class="xl:max-w-6xl mx-auto px-4 pt-16 pb-4">
         <div class="border-t border-solid border-grey-darkest pt-6 -mb-6">
           <div class="mb-6">
             <p><a href="#0">Contact</a></p>
