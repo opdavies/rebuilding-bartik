@@ -8,8 +8,6 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "node-sass": "^4.10.0",
-    "sass-loader": "^7.1.0",
     "tailwindcss": "https://github.com/tailwindcss/tailwindcss.git#next",
     "tailwindcss-skip-link": "^1.0.1",
     "vue": "^2.5.17"
