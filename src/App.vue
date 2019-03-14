@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-@tailwind preflight;
+@tailwind base;
 @tailwind components;
 
 .skip-link:focus {

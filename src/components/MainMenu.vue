@@ -2,7 +2,7 @@
   <div>
     <button
       type="button"
-      class="w-full p-3 block sm:hidden bg-blue-light text-sm text-grey-darker text-left focus:outline-none"
+      class="w-full p-3 block sm:hidden bg-blue-1 text-sm text-grey-6 text-left focus:outline-none"
       @click="open = !open"
     >
       <div class="flex items-center justify-between">
@@ -15,7 +15,7 @@
       </div>
     </button>
 
-    <div class="xl:max-w-3xl mx-auto px-4 sm:block" :class="[ open ? 'block' : 'hidden' ]">
+    <div class="xl:max-w-6xl mx-auto px-4 sm:block" :class="[ open ? 'block' : 'hidden' ]">
       <div class="mt-2 sm:mt-0">
         <nav class="flex flex-wrap pb-1 md:p-0 -mx-3 sm:-mx-0">
           <div
@@ -25,7 +25,7 @@
           >
             <a
               class="block text-sm no-underline text-black px-3 py-2 rounded-lg md:rounded-none md:rounded-t-lg sm:text-center"
-              :class="[ index == activeTab ? 'bg-white' : 'bg-blue-light hover:bg-white' ]"
+              :class="[ index == activeTab ? 'bg-white' : 'bg-blue-1 hover:bg-white' ]"
               :href="link.href"
             >
               {{ link.title }}
