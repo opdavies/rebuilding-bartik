@@ -1,4 +1,4 @@
-# rebuilding-bartik
+# Rebuilding Bartik with Vue.js and Tailwind CSS
 
 ## Project setup
 ```
