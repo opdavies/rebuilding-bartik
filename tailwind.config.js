@@ -6,28 +6,31 @@ module.exports = {
         60: 'rgba(0,0,0,.6)',
       },
       blue: {
-        1: '#bcdefa',
-        2: '#3490dc',
-        3: '#2779bd',
+        100: '#bcdefa',
+        200: '#3490dc',
+        300: '#2779bd',
       },
       green: {
-        1: '#f3faee',
-        2: '#cde2c2',
-        3: '#77b159',
-        4: '#325e1c',
+        100: '#f3faee',
+        200: '#cde2c2',
+        300: '#77b159',
+        400: '#325e1c',
       },
       grey: {
-        1: '#f6f6f2',
-        2: '#f0f0f0',
-        3: '#dae1e7',
-        4: '#b8c2cc',
-        5: '#8795a1',
-        6: '#3d4852',
+        100: '#f6f6f2',
+        200: '#f0f0f0',
+        300: '#dae1e7',
+        400: '#b8c2cc',
+        500: '#8795a1',
+        600: '#3d4852',
       },
       transparent: 'transparent',
       white: '#fff',
     },
     extend: {
+      fontFamily: {
+        sans: ['sans-serif'],
+      },
       fontSize: {
         '3xl': '1.75rem',
       },
@@ -37,10 +40,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwindcss/plugins/container')({
-      center: true,
-      padding: '1rem',
-    }),
     require('tailwindcss-skip-link')(),
   ]
 }

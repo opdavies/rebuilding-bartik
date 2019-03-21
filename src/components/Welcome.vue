@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-blue-3">
+    <div class="bg-blue-300">
       <div class="py-4 text-white">
         <div id="header" class="xl:max-w-6xl mx-auto px-4 relative">
           <div class="flex flex-col-reverse">
@@ -26,8 +26,8 @@
         <drupal-message type="status">
           <p>
             A Bartik clone, built with
-            <a href="https://vuejs.org" class="text-blue-3 hover:text-blue-2 no-underline border-b border-dotted hover:border-solid border-blue-3">Vue.js</a>
-            and <a href="https://tailwindcss.com" class="text-blue-3 hover:text-blue-2 no-underline border-b border-dotted hover:border-solid border-blue-3">Tailwind CSS</a>.
+            <a href="https://vuejs.org" class="text-blue-300 hover:text-blue-200 no-underline border-b border-dotted hover:border-solid border-blue-300">Vue.js</a>
+            and <a href="https://tailwindcss.com" class="text-blue-300 hover:text-blue-200 no-underline border-b border-dotted hover:border-solid border-blue-300">Tailwind CSS</a>.
           </p>
         </drupal-message>
 
@@ -48,13 +48,13 @@
 
           <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6 -mb-4">
             <sidebar-block>
-              <h2 class="font-serif font-normal text-base text-grey-6 border-b border-solid border-grey-3 mb-3">Search</h2>
+              <h2 class="font-serif font-normal text-base text-grey-600 border-b border-solid border-grey-300 mb-3">Search</h2>
 
               <div>
                 <form action="#" class="flex">
-                  <input type="text" class="border border-solid border-grey-4 p-2 w-full xl:w-auto">
+                  <input type="text" class="border border-solid border-grey-400 py-1 px-2 w-full xl:w-auto">
 
-                  <button type="submit" class="bg-grey-2 px-3 rounded-full border-b border-solid border-grey-5 ml-2 flex-none">
+                  <button type="submit" class="bg-grey-200 px-3 rounded-full border-b border-solid border-grey-500 ml-2 flex-none">
                     <img src="img/loupe.svg" class="block">
                   </button>
                 </form>
@@ -67,7 +67,7 @@
 
     <div id="footer" class="text-xs text-white">
       <div class="xl:max-w-6xl mx-auto px-4 pt-16 pb-4">
-        <div class="border-t border-solid border-grey-6 pt-6 -mb-6">
+        <div class="border-t border-solid border-grey-600 pt-6 -mb-6">
           <div class="mb-6">
             <p><a href="#0">Contact</a></p>
           </div>
@@ -116,11 +116,11 @@ export default {
 }
 
 #main a {
-  @apply text-blue-3 no-underline border-b border-blue-1 border-dotted;
+  @apply text-blue-300 no-underline border-b border-blue-100 border-dotted;
 
   &:hover,
   &:focus {
-    @apply text-blue-1 border-solid
+    @apply text-blue-100 border-solid
   }
 }
 
