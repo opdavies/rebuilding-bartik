@@ -28,6 +28,9 @@ module.exports = {
       white: '#fff',
     },
     extend: {
+      fontFamily: {
+        sans: ['sans-serif'],
+      },
       fontSize: {
         '3xl': '1.75rem',
       },
