@@ -6,5 +6,5 @@ Vue.config.productionTip = false
 Vue.component('drupal-message', require('@/components/DrupalMessage').default)
 
 new Vue({
-  render: h => h(App),
+  render: h => h(App)
 }).$mount('#app')
