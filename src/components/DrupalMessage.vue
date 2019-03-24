@@ -16,15 +16,15 @@ export default {
   computed: {
     classes: function () {
       return {
-        status: 'border-green-200 text-green-400 bg-green-100',
+        status: 'border-green-200 text-green-400 bg-green-100'
       }[this.type]
     },
 
     wrapperClasses: function () {
       return {
-        status: 'bg-green-300',
+        status: 'bg-green-300'
       }[this.type]
-    },
+    }
   }
 }
 </script>
