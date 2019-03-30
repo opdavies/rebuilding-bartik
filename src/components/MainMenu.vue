@@ -38,44 +38,44 @@
 </template>
 
 <script>
-  export default {
-    data: function () {
-      return {
-        activeTab: 0,
-        open: false,
-        links: [
-          {
-            title: 'Home',
-            href: '#0',
-          },
-          {
-            title: 'Drupal',
-            href: 'https://www.drupal.org',
-          },
-          {
-            title: 'Vue.js',
-            href: 'https://vuejs.org',
-          },
-          {
-            title: 'Tailwind CSS',
-            href: 'https://tailwindcss.com',
-          },
-          {
-            title: 'View code on GitHub',
-            href: 'https://github.com/opdavies/rebuilding-bartik',
-          },
-          {
-            title: 'Read blog post',
-            href: 'https://www.oliverdavies.uk/blog/rebuilding-bartik-with-vuejs-tailwind-css',
-          },
-        ]
-      }
-    },
+export default {
+  data: function () {
+    return {
+      activeTab: 0,
+      open: false,
+      links: [
+        {
+          title: 'Home',
+          href: '#0'
+        },
+        {
+          title: 'Drupal',
+          href: 'https://www.drupal.org'
+        },
+        {
+          title: 'Vue.js',
+          href: 'https://vuejs.org'
+        },
+        {
+          title: 'Tailwind CSS',
+          href: 'https://tailwindcss.com'
+        },
+        {
+          title: 'View code on GitHub',
+          href: 'https://github.com/opdavies/rebuilding-bartik'
+        },
+        {
+          title: 'Read blog post',
+          href: 'https://www.oliverdavies.uk/blog/rebuilding-bartik-with-vuejs-tailwind-css'
+        }
+      ]
+    }
+  },
 
-    computed: {
-      navText: function () {
-        return this.open ? 'Hide' : 'Show';
-      }
+  computed: {
+    navText: function () {
+      return this.open ? 'Hide' : 'Show'
     }
   }
+}
 </script>

@@ -87,13 +87,13 @@
 </template>
 
 <script>
-import MainMenu from './MainMenu.vue';
+import MainMenu from './MainMenu.vue'
 import SidebarBlock from './SidebarBlock.vue'
 
 export default {
   components: {
     MainMenu,
-    SidebarBlock,
+    SidebarBlock
   },
 
   props: {
