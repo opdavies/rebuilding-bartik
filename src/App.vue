@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="font-sans text-black bg-black text-sm leading-normal">
     <skip-link></skip-link>
 
     <welcome title="Rebuilding Bartik"></welcome>

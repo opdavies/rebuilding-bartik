@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="min-h-screen">
     <div class="bg-blue-300">
       <div class="py-4 text-white">
         <div id="header" class="xl:max-w-6xl mx-auto px-4 relative">
