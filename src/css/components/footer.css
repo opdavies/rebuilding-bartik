@@ -1,0 +1,8 @@
+#footer a {
+  @apply text-white no-underline border-b border-dotted border-white;
+
+  &:hover,
+  &:focus {
+    @apply border-none
+  }
+}
