@@ -110,41 +110,4 @@ export default {
 }
 </script>
 
-<style>
-@tailwind base;
-@tailwind components;
-
-.skip-link:focus {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-#header a {
-  @apply text-white no-underline;
-
-  &:hover,
-  &:focus {
-    @apply underline
-  }
-}
-
-#main a {
-  @apply text-blue-300 no-underline border-b border-blue-100 border-dotted;
-
-  &:hover,
-  &:focus {
-    @apply text-blue-100 border-solid
-  }
-}
-
-#footer a {
-  @apply text-white no-underline border-b border-dotted border-white;
-
-  &:hover,
-  &:focus {
-    @apply border-none
-  }
-}
-
-@tailwind utilities;
-</style>
+<style src="./css/app.css"/>
