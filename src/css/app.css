@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-
-@import './components/footer.css';
-@import './components/main.css';
-@import './components/skip-link.css';
-
-@tailwind utilities;
