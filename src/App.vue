@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="min-h-screen font-sans text-black bg-black text-sm leading-normal">
+  <div id="app" class="min-h-screen font-sans bg-black text-white text-sm leading-normal">
     <skip-link></skip-link>
 
-    <div class="bg-blue-300">
+    <header class="bg-blue-300">
       <div class="py-4 text-white">
         <div id="header" class="xl:max-w-6xl mx-auto px-4 relative">
           <div class="flex flex-col-reverse">
@@ -18,13 +18,13 @@
             </div>
           </div>
         </div>
-      </div>
+        </div>
 
       <main-menu></main-menu>
-    </div>
+    </header>
 
-    <div id="main-content" class="bg-white pt-6 pb-4 lg:pb-12">
-      <div class="xl:max-w-6xl mx-auto px-4">
+    <div class="bg-white text-black">
+      <div class="max-w-6xl mx-auto px-4 py-6">
         <drupal-message type="status">
           <p>
             A Bartik clone, built with
@@ -33,22 +33,18 @@
           </p>
         </drupal-message>
 
-        <div class="flex flex-col md:flex-row-reverse md:-mx-6 my-6">
-          <div id="main" class="w-full md:w-auto md:flex-1 md:px-6 mb-8 md:mb-0">
+        <div class="md:flex md:flex-row-reverse -mx-6">
+          <main id="main" class="flex-1 px-6 pb-8 lg:pb-12">
             <div class="font-serif">
               <h1 class="text-3xl font-normal leading-tight mb-1">Welcome to {{ title }}</h1>
               <p>No front page content has been created yet.</p>
-              <p>Follow the <a href="#0" class="">User Guide</a> to start building your site.</p>
+              <p>Follow the <a href="#0">User Guide</a> to start building your site.</p>
             </div>
 
-            <div class="mt-10">
-              <a href="#0">
-                <img src="img/feed.svg" alt="">
-              </a>
-            </div>
-          </div>
+            <div class="mt-6 lg:mt-10"><a href="#0"><img src="img/feed.svg" alt=""></a></div>
+          </main>
 
-          <div class="w-full md:w-1/3 lg:w-1/4 flex-none md:px-6 -mb-4">
+          <aside class="w-full md:w-1/3 lg:w-1/4 px-6 -mb-4">
             <sidebar-block>
               <h2 class="font-serif font-normal text-base text-grey-600 border-b border-solid border-grey-300 mb-3">Search</h2>
 
@@ -62,19 +58,19 @@
                 </form>
               </div>
             </sidebar-block>
-          </div>
+          </aside>
         </div>
       </div>
     </div>
 
-    <div id="footer" class="text-xs text-white">
-      <div class="xl:max-w-6xl mx-auto px-4 pt-16 pb-4">
-        <div class="border-t border-solid border-grey-600 pt-6 -mb-6">
-          <div class="mb-6">
+    <footer id="footer" class="bg-black text-white text-xs">
+      <div class="max-w-6xl mx-auto px-4 pt-16 pb-8 bg-grey-700">
+        <div class="border-t border-solid border-grey-600 pt-6">
+          <div>
             <p><a href="#0">Contact</a></p>
           </div>
 
-          <div class="mb-6">
+          <div class="mt-6">
             <p>
               A clone of <a href="https://www.drupal.org">Drupal</a>’s default theme (Bartik).
               Built by <a href="https://www.oliverdavies.uk">Oliver Davies</a>
@@ -84,7 +80,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   </div>
 </template>
 
