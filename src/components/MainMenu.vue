@@ -10,7 +10,7 @@
           {{ navText }} - Main navigation
         </div>
         <div>
-          <img src="img/hamburger.svg" alt="">
+          <img src="@/assets/img/hamburger.svg" alt="">
         </div>
       </div>
     </button>

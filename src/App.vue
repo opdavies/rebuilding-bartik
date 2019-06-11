@@ -7,7 +7,7 @@
         <div id="header" class="xl:max-w-6xl mx-auto px-4 relative">
           <div class="flex flex-col-reverse">
             <div class="flex items-center">
-              <img src="img/logo.svg" alt="" class="mr-4">
+              <img src="@/assets/img/logo.svg" alt="" class="mr-4">
               <div class="text-2xl">
                 <a href="#0">{{ title }}</a>
               </div>
@@ -41,7 +41,7 @@
               <p>Follow the <a href="#0">User Guide</a> to start building your site.</p>
             </div>
 
-            <div class="mt-6 lg:mt-10"><a href="#0"><img src="img/feed.svg" alt=""></a></div>
+            <div class="mt-6 lg:mt-10"><a href="#0"><img src="@/assets/img/feed.svg" alt=""></a></div>
           </main>
 
           <aside class="w-full md:w-1/3 lg:w-1/4 px-6 -mb-4">
@@ -53,7 +53,7 @@
                   <input type="text" class="border border-solid border-grey-400 py-1 px-2 w-full xl:w-auto">
 
                   <button type="submit" class="bg-grey-200 px-3 rounded-full border-b border-solid border-grey-500 ml-2 flex-none">
-                    <img src="img/loupe.svg" class="block">
+                    <img src="@/assets/img/search.svg" class="block">
                   </button>
                 </form>
               </div>
@@ -106,4 +106,4 @@ export default {
 }
 </script>
 
-<style src="./assets/css/tailwind.css"/>
+<style src="@/assets/css/tailwind.css"/>
