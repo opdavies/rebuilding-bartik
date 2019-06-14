@@ -3,7 +3,7 @@
     <button
       type="button"
       class="w-full p-3 block sm:hidden bg-blue-100 text-sm text-grey-600 text-left focus:outline-none"
-      @click="open = !open"
+      @click="toggle"
     >
       <div class="flex items-center justify-between">
         <div>
@@ -15,7 +15,7 @@
       </div>
     </button>
 
-    <div class="xl:max-w-6xl mx-auto px-4 sm:block" :class="[ open ? 'block' : 'hidden' ]">
+    <div class="xl:max-w-6xl mx-auto px-4 sm:block" :class="[ isOpen ? 'block' : 'hidden' ]">
       <div class="mt-2 sm:mt-0">
         <nav class="flex flex-wrap pb-1 md:p-0 -mx-3 sm:-mx-0">
           <div
@@ -42,7 +42,7 @@ export default {
   data: function () {
     return {
       activeTab: 0,
-      open: false,
+      isOpen: false,
       links: [
         {
           title: 'Home',
@@ -74,7 +74,13 @@ export default {
 
   computed: {
     navText: function () {
-      return this.open ? 'Hide' : 'Show'
+      return this.isOpen ? 'Hide' : 'Show'
+    }
+  },
+
+  methods: {
+    toggle () {
+      this.isOpen = !this.isOpen
     }
   }
 }
