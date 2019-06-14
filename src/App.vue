@@ -4,7 +4,7 @@
 
     <header class="bg-blue-300">
       <div class="py-4 text-white">
-        <div id="header" class="xl:max-w-6xl mx-auto px-4 relative">
+        <div id="header" class="mx-auto px-4 relative xl:max-w-6xl">
           <div class="flex flex-col-reverse">
             <div class="flex items-center">
               <img src="@/assets/img/logo.svg" alt="" class="mr-4">
@@ -33,10 +33,10 @@
           </p>
         </drupal-message>
 
-        <div class="md:flex md:flex-row-reverse -mx-6">
+        <div class="-mx-6 md:flex md:flex-row-reverse">
           <main id="main" class="flex-1 px-6 pb-8 lg:pb-12">
             <div class="font-serif">
-              <h1 class="text-3xl font-normal leading-tight mb-1">Welcome to {{ title }}</h1>
+              <h1 class="mb-1 text-3xl font-normal leading-tight">Welcome to {{ title }}</h1>
               <p>No front page content has been created yet.</p>
               <p>Follow the <a href="#0">User Guide</a> to start building your site.</p>
             </div>
@@ -44,15 +44,15 @@
             <div class="mt-6 lg:mt-10"><a href="#0"><img src="@/assets/img/feed.svg" alt=""></a></div>
           </main>
 
-          <aside class="w-full md:w-1/3 lg:w-1/4 px-6 -mb-4">
+          <aside class="w-full px-6 -mb-4 md:w-1/3 lg:w-1/4">
             <sidebar-block>
               <h2 class="font-serif font-normal text-base text-grey-600 border-b border-solid border-grey-300 mb-3">Search</h2>
 
               <div>
                 <form action="#" class="flex">
-                  <input type="text" class="border border-solid border-grey-400 py-1 px-2 w-full xl:w-auto">
+                  <input type="text" class="w-full py-1 px-2 border border-solid border-grey-400 xl:w-auto">
 
-                  <button type="submit" class="bg-grey-200 px-3 rounded-full border-b border-solid border-grey-500 ml-2 flex-none">
+                  <button type="submit" class="flex-none ml-2 px-3 rounded-full bg-grey-200 border-b border-solid border-grey-500">
                     <img src="@/assets/img/search.svg" class="block">
                   </button>
                 </form>

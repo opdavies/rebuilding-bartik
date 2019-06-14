@@ -2,7 +2,7 @@
   <div>
     <button
       type="button"
-      class="w-full p-3 block sm:hidden bg-blue-100 text-sm text-grey-600 text-left focus:outline-none"
+      class="w-full block p-3 bg-blue-100 text-sm text-grey-600 text-left focus:outline-none sm:hidden"
       @click="toggle"
     >
       <div class="flex items-center justify-between">
@@ -15,16 +15,16 @@
       </div>
     </button>
 
-    <div class="xl:max-w-6xl mx-auto px-4 sm:block" :class="[ isOpen ? 'block' : 'hidden' ]">
+    <div class="mx-auto px-4 sm:block xl:max-w-6xl" :class="[ isOpen ? 'block' : 'hidden' ]">
       <div class="mt-2 sm:mt-0">
-        <nav class="flex flex-wrap pb-1 md:p-0 -mx-3 sm:-mx-0">
+        <nav class="flex flex-wrap pb-1 -mx-3 sm:-mx-0 md:p-0">
           <div
-            class="px-1 sm:pl-0 mb-1 md:mb-0 inline-block w-full sm:w-1/3 md:w-auto"
+            class="w-full inline-block px-1 mb-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"
             :key="link.title"
             v-for="(link, index) in links"
           >
             <a
-              class="block text-sm no-underline text-black px-3 py-2 rounded-lg md:rounded-none md:rounded-t-lg sm:text-center"
+              class="block px-3 py-2 rounded-lg text-sm text-black no-underline sm:text-center md:rounded-none md:rounded-t-lg"
               :class="[ index == activeTab ? 'bg-white' : 'bg-blue-100 hover:bg-white' ]"
               :href="link.href"
             >
