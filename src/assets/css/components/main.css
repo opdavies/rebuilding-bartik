@@ -1,8 +1,0 @@
-#main a {
-  @apply text-blue-300 no-underline border-b border-blue-100 border-dotted;
-
-  &:hover,
-  &:focus {
-    @apply text-blue-100 border-solid
-  }
-}
