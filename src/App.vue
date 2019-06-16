@@ -18,9 +18,11 @@
             </div>
           </div>
         </div>
-        </div>
+      </div>
 
-      <main-menu></main-menu>
+      <div class="mt-1">
+        <main-menu></main-menu>
+      </div>
     </header>
 
     <div class="bg-white text-black">
