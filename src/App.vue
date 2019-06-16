@@ -38,8 +38,8 @@
         <div class="-mx-6 md:flex md:flex-row-reverse">
           <main id="main" class="flex-1 px-6 pb-8 lg:pb-12">
             <div class="font-serif">
-              <h1 class="mb-1 text-3xl font-normal leading-tight">Welcome to {{ title }}</h1>
-              <p>No front page content has been created yet.</p>
+              <h1 class="text-3xl font-normal leading-tight">Welcome to {{ title }}</h1>
+              <p class="mt-1">No front page content has been created yet.</p>
               <p>Follow the <a href="#0">User Guide</a> to start building your site.</p>
             </div>
 
@@ -48,9 +48,9 @@
 
           <aside class="w-full px-6 -mb-4 md:w-1/3 lg:w-1/4">
             <sidebar-block>
-              <h2 class="font-serif font-normal text-base text-grey-600 border-b border-solid border-grey-300 mb-3">Search</h2>
+              <h2 class="font-serif font-normal text-base text-grey-600 border-b border-solid border-grey-300">Search</h2>
 
-              <div>
+              <div class="mt-3">
                 <form action="#" class="flex">
                   <input type="text" class="w-full py-1 px-2 border border-solid border-grey-400 xl:w-auto">
 

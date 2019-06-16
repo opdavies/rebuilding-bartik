@@ -17,9 +17,9 @@
 
     <div class="mx-auto px-4 sm:block xl:max-w-6xl" :class="[ isOpen ? 'block' : 'hidden' ]">
       <div class="mt-2 sm:mt-0">
-        <nav class="flex flex-wrap pb-1 -mx-3 sm:-mx-0 md:p-0">
+        <nav class="flex flex-wrap pb-2 -mt-1 -mx-3 sm:-mx-0 md:p-0">
           <div
-            class="w-full inline-block px-1 mb-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"
+            class="w-full inline-block px-1 mt-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"
             :key="link.title"
             v-for="(link, index) in links"
           >
