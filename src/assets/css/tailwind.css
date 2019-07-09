@@ -1,28 +1,23 @@
-@tailwind base;
+@tailwind base
 
-#main a {
-  @apply text-blue-300 no-underline border-b border-blue-100 border-dotted;
+#main a
+  @apply text-blue-300 no-underline border-b border-blue-100 border-dotted
 
   &:hover,
-  &:focus {
+  &:focus
     @apply text-blue-100 border-solid
-  }
-}
 
-#footer a {
-  @apply text-white no-underline border-b border-dotted border-white;
+#footer a
+  @apply text-white no-underline border-b border-dotted border-white
 
   &:hover,
-  &:focus {
+  &:focus
     @apply border-none
-  }
-}
 
-@tailwind components;
+@tailwind components
 
-@tailwind utilities;
+@tailwind utilities
 
-.skip-link:focus {
-  left: 50%;
-  transform: translateX(-50%);
-}
+.skip-link:focus
+  left: 50%
+  transform: translateX(-50%)
