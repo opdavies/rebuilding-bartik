@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "sugarss": "^2.0.0",
-    "tailwindcss": "^1.0.1",
+    "tailwindcss": "^1.0.6",
     "tailwindcss-skip-link": "^1.0.1",
     "vue": "^2.6.6"
   },
