@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "postcss-import": "^12.0.1",
-    "tailwindcss": "^1.0.1",
+    "tailwindcss": "^1.1.1",
     "tailwindcss-skip-link": "^1.0.1",
     "vue": "^2.6.6"
   },
