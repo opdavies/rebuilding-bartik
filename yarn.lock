@@ -7779,10 +7779,10 @@ tailwindcss-skip-link@^1.0.1:
   resolved "https://registry.yarnpkg.com/tailwindcss-skip-link/-/tailwindcss-skip-link-1.0.1.tgz#b965624ed0b007ddd33f0326f2719d9a88b857c7"
   integrity sha512-Hxivkqu7UEluZY+ZPv+aQv4dreqTfYRgniEtux4qb9yJPjyR4dXiHMIWk7LgNqsyCPKpoRL8FJq55uIQN4ms+w==
 
-tailwindcss@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.1.2.tgz#0107dc092c3edee6132b105d896b109c0f66afd6"
-  integrity sha512-mcTzZHXMipnQY9haB17baNJmBTkYYcC8ljfMdB9/97FfhKJIzlglJcyGythuQTOu7r/QIbLfZYYWZhAvaGj95A==
+tailwindcss@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.1.3.tgz#ad154f78e1e44060e32e3ed44b27287c2be126a6"
+  integrity sha512-8sa/QO+blnu3WXUylsgvYZlUbBpVH36QeGuZxgSGqp1dF3g4AGe1azt8FsO8i8Hfe9Oyvwhx3iSjRDak3nngeQ==
   dependencies:
     autoprefixer "^9.4.5"
     bytes "^3.0.0"
