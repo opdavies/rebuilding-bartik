@@ -6,7 +6,8 @@
 !/netlify.toml
 !/package*.json
 !/postcss.config.js
-!/tailwind.config.js
+!/purgecss.config.js
 !/public/images/**
 !/public/index.html
+!/tailwind.config.js
 !/webpack.config.js

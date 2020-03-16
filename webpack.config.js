@@ -1,4 +1,6 @@
 let Encore = require('@symfony/webpack-encore')
+let purgecssConfig = require('./purgecss.config')
+let PurgecssPlugin = require('purgecss-webpack-plugin')
 
 Encore
     .disableSingleRuntimeChunk()
@@ -10,5 +12,9 @@ Encore
     .configureLoaderRule('css', loaderRule => {
         loaderRule.test = /\.(css|p(ost)?css)$/
     })
+
+if (Encore.isProduction()) {
+    Encore.addPlugin(new PurgecssPlugin(purgecssConfig))
+}
 
 module.exports = Encore.getWebpackConfig()
