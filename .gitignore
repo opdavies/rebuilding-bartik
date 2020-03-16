@@ -1,0 +1,12 @@
+*
+!*/
+!/.gitignore
+!/assets/**/*.js
+!/assets/**/*.pcss
+!/netlify.toml
+!/package*.json
+!/postcss.config.js
+!/tailwind.config.js
+!/public/images/**
+!/public/index.html
+!/webpack.config.js

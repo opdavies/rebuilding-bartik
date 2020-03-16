@@ -1,30 +1,20 @@
 {
-  "name": "rebuilding-bartik",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "postcss-import": "^12.0.1",
-    "tailwindcss": "^1.1.3",
-    "tailwindcss-skip-link": "^1.0.1",
-    "vue": "^2.6.6"
-  },
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.3.0",
-    "@vue/cli-plugin-babel": "^3.11.0",
-    "@vue/cli-plugin-eslint": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
-    "@vue/eslint-config-standard": "^4.0.0",
-    "babel-eslint": "^10.0.3",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
-  },
-  "engines": {
-    "yarn": "YARN NO LONGER USED - use npm instead."
-  }
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "encore dev",
+        "watch": "npm run development -- --watch",
+        "prod": "npm run production",
+        "production": "encore production --progress"
+    },
+    "devDependencies": {
+        "@symfony/webpack-encore": "^0.28.3",
+        "postcss-loader": "^3.0.0",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {
+        "alpinejs": "^2.1.2",
+        "tailwindcss": "^1.2.0",
+        "tailwindcss-skip-link": "^1.0.1"
+    }
 }

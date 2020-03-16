@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="/favicon.ico">
+    <title>Rebuilding Bartik with Tailwind CSS and Alpine.js</title>
+    <link href="/build/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app" class="min-h-screen font-sans bg-black text-white text-sm leading-normal">
+        <div><a href="#main-content" class="skip-link py-1 px-2 rounded-b-lg text-white bg-black-60 focus:no-underline focus:outline-none">Skip to main content</a></div>
+        <header class="bg-blue-300">
+            <div class="py-4 text-white">
+                <div id="header" class="mx-auto px-4 relative xl:max-w-6xl">
+                    <div class="flex flex-col-reverse">
+                        <div class="flex items-center"><img src="/images/logo.svg" alt="" class="mr-4">
+                            <div class="text-2xl"><a href="#0">Rebuilding Bartik</a></div>
+                        </div>
+                        <div class="text-sm flex justify-end"><a href="#0">Log in</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-1">
+                <div>
+                    <button type="button" class="w-full block p-3 bg-blue-100 text-sm text-grey-600 text-left focus:outline-none sm:hidden">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                Show - Main navigation
+                            </div>
+                            <div><img src="/img/hamburger.48998d54.svg" alt=""></div>
+                        </div>
+                    </button>
+                    <div class="mx-auto px-4 sm:block xl:max-w-6xl hidden">
+                        <div class="mt-2 sm:mt-0">
+                            <nav class="flex flex-wrap pb-2 -mt-1 -mx-3 sm:-mx-0 md:p-0">
+                                <div class="w-full inline-block px-1 mt-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"><a href="#0" class="block px-3 py-2 rounded-lg text-sm text-black no-underline sm:text-center md:rounded-none md:rounded-t-lg bg-white">
+            Home
+          </a></div>
+                                <div class="w-full inline-block px-1 mt-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"><a href="https://www.drupal.org" class="block px-3 py-2 rounded-lg text-sm text-black no-underline sm:text-center md:rounded-none md:rounded-t-lg bg-blue-100 hover:bg-white">
+            Drupal
+          </a></div>
+                                <div class="w-full inline-block px-1 mt-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"><a href="https://vuejs.org" class="block px-3 py-2 rounded-lg text-sm text-black no-underline sm:text-center md:rounded-none md:rounded-t-lg bg-blue-100 hover:bg-white">
+            Vue.js
+          </a></div>
+                                <div class="w-full inline-block px-1 mt-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"><a href="https://tailwindcss.com" class="block px-3 py-2 rounded-lg text-sm text-black no-underline sm:text-center md:rounded-none md:rounded-t-lg bg-blue-100 hover:bg-white">
+            Tailwind CSS
+          </a></div>
+                                <div class="w-full inline-block px-1 mt-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"><a href="https://github.com/opdavies/rebuilding-bartik" class="block px-3 py-2 rounded-lg text-sm text-black no-underline sm:text-center md:rounded-none md:rounded-t-lg bg-blue-100 hover:bg-white">
+            View code on GitHub
+          </a></div>
+                                <div class="w-full inline-block px-1 mt-1 md:mb-0 sm:w-1/3 sm:pl-0 md:w-auto"><a href="https://www.oliverdavies.uk/blog/rebuilding-bartik-with-vuejs-tailwind-css" class="block px-3 py-2 rounded-lg text-sm text-black no-underline sm:text-center md:rounded-none md:rounded-t-lg bg-blue-100 hover:bg-white">
+            Read blog post
+          </a></div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="bg-white text-black">
+            <div class="max-w-6xl mx-auto px-4 py-6">
+                <div class="bg-green-300 pl-2 rounded-sm">
+                    <div class="flex items-center py-4 pl-3 pr-4 mb-6 border rounded-sm border-green-200 text-green-400 bg-green-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-4 h-4 text-green-300 mr-3">
+                            <path d="M6.464 13.676a.502.502 0 0 1-.707 0L.797 8.721a.502.502 0 0 1 0-.707l1.405-1.407a.5.5 0 0 1 .707 0l2.849 2.848a.504.504 0 0 0 .707 0l6.629-6.626a.502.502 0 0 1 .707 0l1.404 1.404a.504.504 0 0 1 0 .707l-8.741 8.736z"></path>
+                        </svg>
+                        <p>
+                            A Bartik clone, built with
+                            <a href="https://vuejs.org" class="text-blue-300 hover:text-blue-200 no-underline border-b border-dotted hover:border-solid border-blue-300">Vue.js</a> and <a href="https://tailwindcss.com" class="text-blue-300 hover:text-blue-200 no-underline border-b border-dotted hover:border-solid border-blue-300">Tailwind CSS</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="-mx-6 md:flex md:flex-row-reverse">
+                    <main id="main" class="flex-1 px-6 pb-8 lg:pb-12">
+                        <div class="font-serif">
+                            <h1 class="text-3xl font-normal leading-tight">Welcome to Rebuilding Bartik</h1>
+                            <p class="mt-1">No front page content has been created yet.</p>
+                            <p>Follow the <a href="#0">User Guide</a> to start building your site.</p>
+                        </div>
+                        <div class="mt-6 lg:mt-10">
+                            <a href="#0"><img src="/img/feed.14efd8fc.svg" alt=""></a>
+                        </div>
+                    </main>
+                    <aside class="w-full px-6 -mb-4 md:w-1/3 lg:w-1/4">
+                        <div class="p-4 mb-4 bg-grey-100">
+                            <h2 class="font-serif font-normal text-base text-grey-600 border-b border-solid border-grey-300">Search</h2>
+                            <div class="mt-3">
+                                <form action="#" class="flex">
+                                    <input type="text" class="w-full py-1 px-2 border border-solid border-grey-400 xl:w-auto">
+                                    <button type="submit" class="flex-none ml-2 px-3 rounded-full bg-grey-200 border-b border-solid border-grey-500"><img src="/img/search.bd3dee64.svg" class="block"></button>
+                                </form>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer" class="bg-black text-white text-xs">
+            <div class="max-w-6xl mx-auto px-4 pt-16 pb-8 bg-grey-700">
+                <div class="border-t border-solid border-grey-600 pt-6">
+                    <div>
+                        <p><a href="#0">Contact</a></p>
+                    </div>
+                    <div class="mt-6">
+                        <p>
+                            A clone of <a href="https://www.drupal.org">Drupal</a>’s default theme (Bartik). Built by <a href="https://www.oliverdavies.uk">Oliver Davies</a> using <a href="https://vuejs.org">Vue.js</a> and <a href="https://tailwindcss.com">Tailwind CSS</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/build/app.js"></script>
